@@ -33,7 +33,7 @@ public class Metronome {
                 mChannels[10].noteOff(60);
             });
             timer.setRepeats(true);
-            timer.start();
+            //timer.start();
         try {
 
             midiSynth = MidiSystem.getSynthesizer();
